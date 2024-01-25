@@ -1,0 +1,26 @@
+
+header {
+  text-align: center;
+}
+
+
+header img {
+  vertical-align: middle;
+  margin-right: 10px;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+
+@media (max-width: 600px) {
+  header img {
+      max-width: 100%;
+  }
+
+  h1 {
+      margin-left: 5%;
+      width: 90vw;
+      font-size: clamp(1.5rem, 2.5vw, 3rem);
+  }
+}
